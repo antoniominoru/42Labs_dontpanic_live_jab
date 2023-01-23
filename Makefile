@@ -3,3 +3,8 @@ all:
 
 clean:
 	docker builder prune
+
+fclean: clean
+	docker system prune -a --force --volumes
+	clear
+	docker system df
