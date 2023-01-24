@@ -11,5 +11,5 @@ fclean: clean
 
 git:
 	git add .
-	git commit -m "update"
+	git commit -m "Test_workflow"
 	git push
