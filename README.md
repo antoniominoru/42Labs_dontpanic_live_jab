@@ -1,4 +1,5 @@
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![example workflow]((https://github.com/42sp/dontpanic_live_jab/actions/workflows/text_node.yml)
+
 
 <div align="center">
 
