@@ -8,3 +8,8 @@ fclean: clean
 	docker system prune -a --force --volumes
 	clear
 	docker system df
+
+git:
+	git add .
+	git commit -m "update"
+	git push
