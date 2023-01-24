@@ -20,11 +20,11 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-            node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-            run: npm install --workspaces
+         run: npm install --workspaces
       - name: Test
-            run: npm test --workspaces --if-present
+         run: npm test --workspaces --if-present
 
 
     #   - run: npm --prefix /back ci
