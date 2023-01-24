@@ -1,6 +1,3 @@
-![example workflow]((https://github.com/42sp/dontpanic_live_jab/actions/workflows/text_node.yml/badge.svg?branch=actions)
-
-
 <div align="center">
 
 [Português](https://github.com/42sp/dontpanic_baby_JAB/blob/main/README.md) | [English](https://github.com/42sp/dontpanic_baby_JAB/blob/main/README_en.md)
