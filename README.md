@@ -1,4 +1,4 @@
-![example workflow]((https://github.com/42sp/dontpanic_live_jab/actions/workflows/text_node.yml)
+![example workflow]((https://github.com/42sp/dontpanic_live_jab/actions/workflows/text_node.yml/badge.svg)
 
 
 <div align="center">
