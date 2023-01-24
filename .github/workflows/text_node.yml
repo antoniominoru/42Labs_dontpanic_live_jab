@@ -1,4 +1,4 @@
-name: Node.js CI - new
+name: Node.js Install
 
 on: [push]
 
@@ -6,10 +6,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    # strategy:
-    #   matrix:
-    #     node-version: [ 18.x, 19.x ]
 
     steps:
       - uses: actions/checkout@v3
