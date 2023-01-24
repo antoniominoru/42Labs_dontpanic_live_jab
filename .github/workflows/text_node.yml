@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x, 18.x]
+        node-version: [ 18.x, 19.x ]
 
     steps:
       - uses: actions/checkout@v3
@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci --workspace=back
+      - run: npm install --workspace=back
     #   - run: npm --prefix /back ci
       # - run: npm run build --if-present
       - run: npm test --workspace=back
