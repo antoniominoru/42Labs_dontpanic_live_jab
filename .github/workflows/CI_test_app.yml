@@ -25,3 +25,15 @@ jobs:
       - name: Test
         run: npm test --workspaces --if-present
 
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Merge actions -> main
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: main
+          github_token: ${{ github.token }}
+
