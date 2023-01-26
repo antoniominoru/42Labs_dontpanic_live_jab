@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 AS mynode
 
-RUN /bin/sh -c "apt update && apt upgrade && apt install -y curl &&\
+RUN /bin/sh -c "apt update && apt upgrade -y && apt install -y curl &&\
     curl -fsSL https://deb.nodesource.com/setup_18.x | bash - &&\
     apt-get install -y nodejs"
 
