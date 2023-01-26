@@ -9,8 +9,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install dependencies
-        run: npm install --workspaces
+      - name: Compose dependence
+        run: docker compose build .
 
   test:
 
@@ -20,6 +20,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install --workspaces
       - name: Test
         run: npm test --workspaces --if-present
 
