@@ -1,7 +1,7 @@
-name: Node.js Install
+name: CI build app
 
 on: [push]
-
+#pull_request
 jobs:
   build:
 
